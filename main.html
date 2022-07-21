@@ -1,0 +1,20 @@
+<html>
+<script src='https://d3js.org/d3.v5.min.js'></script>
+<style> path {stroke: black;}</style>
+<body onload='init()'>
+<svg width=300 height=300>
+</svg>
+<script>
+async function init() {
+    
+    data = await d3.csv("superbowl-ads.csv",d3.autoType);
+    
+    console.log(data)
+
+
+
+    }
+
+</script>
+</body>
+</html>
